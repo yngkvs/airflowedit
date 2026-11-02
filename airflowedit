@@ -205,7 +205,7 @@ return cp
 end
 function d:AddColorPicker(opts)return attachCP(opts)end
 function d:AddColorpicker(opts)return attachCP(opts)end
-function d:ColorPicker(opts)return attachCP(opts)end
+function d:ColorPicker(opts)return attachCP(opts)end function d:CreateColorPicker(opts)return attachCP(opts)end function d:CreateColorpicker(opts)return attachCP(opts)end
 if e.Color or e.ColorPicker or e.Colorpicker then
 local cpOpts=e.ColorPicker or e.Colorpicker or{}
 if typeof(e.Color)=="Color3"or type(e.Color)=="string"then cpOpts.Default=e.Color end
